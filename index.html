@@ -3,26 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programação (Matemática 2)</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Prova de HTML em Laboratório</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            margin: 20px;
+        }
+        .section img {
+            width: 100px;
+            display: block;
+            margin-top: 10px;
+        }
+        .section p {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1 class="titulo">Programação (Matemática 2)</h1>
-        <h2 class="subtitulo">Prova 1º Trimestre</h2>
-    </header>
-    <main>
-        <section>
-            <h3>Onde eu, Vinicios, e Getulio gostamos de ir:</h3>
-            <ul>
-                <li>Vinicios: gosto de ir no shopping.</li>
-            </ul>
-            <div class="imagem-container">
-                <img src="shopping1.jpg" alt="Shopping" class="imagem-shopping">
-                <img src="shopping2.jpg" alt="Shopping" class="imagem-shopping">
-                <img src="shopping3.jpg" alt="Shopping" class="imagem-shopping">
-            </div>
-        </section>
-    </main>
+    <div class="header">
+        <h1>Programação (Matemática II)</h1>
+        <h2>Prova 1º Trimestre</h2>
+        <h3>Prova de HTML em Laboratório</h3>
+    </div>
+    
+    <div class="section">
+        <h3>Minha dupla é.. fale sobre vocês</h3>
+        <p><strong>I. Onde eu, <span style="background-color: #ccffff;">(colocar seu nome)</span> e <span style="background-color: #ffccff;">(nome da dupla)</span> gostamos de ir:</strong></p>
+        <p><span style="background-color: #ccffff;">(colocar seu nome)</span> gosto de ir no shopping</p>
+        <img src="shopping.png" alt="Shopping">
+        <p><span style="background-color: #ffccff;">(nome da dupla)</span> gosta de ir na casa da vó</p>
+        <img src="casa_de_vo.png" alt="Casa de Vó">
+    </div>
+    
+    <div class="section">
+        <p><strong>II. O que gostamos de comer:</strong></p>
+        <p>Eu gosto de bolo</p>
+        <img src="bolo.png" alt="Bolo">
+        <p><span style="background-color: #ffccff;">(nome da dupla)</span> gosta de pastel</p>
+        <img src="pastel.png" alt="Pastel">
+    </div>
+    
+    <div class="section">
+        <p><strong>III. O que gostamos de beber:</strong></p>
+        <p>Eu gosto de água de coco</p>
+        <img src="agua_de_coco.png" alt="Água de Coco">
+        <p><span style="background-color: #ffccff;">(nome da dupla)</span> gosta de café</p>
+        <img src="cafe.png" alt="Café">
+    </div>
 </body>
 </html>
