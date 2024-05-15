@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: blue;
+    font-size: 2em;
+}
+
+.subtitulo {
+    color: red;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagem-shopping {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
